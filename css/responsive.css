@@ -1,0 +1,228 @@
+@media (max-width:991px){
+        .checkbtn{
+                display: block;
+                float: right;
+        }
+        .nav-area .menu ul{
+                position: fixed;
+                width: 30%;
+                height: 100vh;
+                background-color: rgba(0,0,0,0.9);
+                left: -200%;
+                transition: all 0.7s ease-in-out;
+                margin-top: 50px;
+        }
+        .nav-area .menu ul li{
+                clear: both;
+                line-height: 30px;
+                display: grid;
+                float: left;
+        }
+        .nav-area .menu ul li a{
+                color: #fff;
+                font-size: 15px;
+                padding: 10px;
+        }
+        #check:checked ~ ul{
+                left: 0;
+        }
+}
+@media screen and (max-width:991px) and (min-width:768px){
+        
+        .img-side img{
+                height: 420px;
+        }
+        .txt-side h1{
+                font-size: 25px;
+                padding: 8px 0px 16px 0px;
+        }
+        .txt-side p{
+                font-size: 15px;
+        }
+        .about-area .img-side img{
+                height: 250px;
+                margin-top: 170px;
+        }
+        .txt-side h2{
+                font-size: 20px;
+        }
+        .figure img{
+                height:220px;
+        }
+        .feedback img{
+                height: 20px;
+                margin-bottom: 150px;
+        }
+        .feedback p{
+                font-size: 15px;
+        }
+        .price{
+                padding: 25px 0px;
+        }
+        .price-head {
+                font-weight: bold;
+                margin-bottom: 25px;
+        }
+        .price-head h1{
+                font-size: 20px;
+                padding: 8px 0px 0px 0px;
+        }
+        .price-foot p{
+                font-size: 12px;
+        }
+        .box{
+                height: 50px;
+                width: 50px;
+                border: 10px solid #A0BBFE;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0px 0px 05px 50px;
+        }
+}
+@media screen and (max-width:767px) and (min-width:576px){
+        .banner-area{
+                padding: 25px 0px;
+        }
+        .img-side img{
+                height: 450px;
+                margin-left: 25%;
+        }
+        .txt-side{
+                margin: 100px 0px 20px 0px;
+        }
+        .txt-side h1{
+                font-size: 30px;
+                padding: 5px 0px 10px 0px;
+        }
+        .about-area{
+                padding: 25px 0px;
+        }
+        .about-area .img-side img{
+                margin: 0 auto;
+                height: 350px;
+        }
+        .about-area .txt-side{
+                margin: 10px 0px;
+        }
+        .txt-side h2{
+                font-size: 20px;
+        }
+        .services-area{
+                padding: 25px 0px;
+        }
+        .facts{
+                padding: 10px 0px;
+        }
+        .feedback-area{
+                padding: 100px 0px;
+        }
+        .feedback img{
+                height: 25px;
+                margin-bottom: 150px;
+        }
+        .feedback p{
+                font-size: 12px;
+        }
+        .price{
+                padding: 25px 0px;
+                margin: 10px 30%;
+        }
+        .price-head {
+                font-weight: bold;
+                margin-bottom: 25px;
+        }
+        .price-head h1{
+                font-size: 20px;
+                padding: 8px 0px 0px 0px;
+        }
+        .price-foot p{
+                font-size: 12px;
+        }
+        .box{
+                height: 50px;
+                width: 50px;
+                border: 10px solid #A0BBFE;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0px 0px 05px 38%;
+        }
+}
+@media screen and (max-width:575px) and (min-width:320px){
+                .banner-area{
+                        padding: 25px 0px;
+                }
+                .img-side img{
+                        height: 250px;
+                        margin-left: 25%;
+                }
+                .txt-side{
+                        margin: 100px 0px 20px 0px;
+                }
+                .txt-side h1{
+                        font-size: 30px;
+                        padding: 5px 0px 10px 0px;
+                }
+                .about-area{
+                        padding: 25px 0px;
+                }
+                .about-area .img-side img{
+                        margin: 0 auto;
+                        height: 200px;
+                }
+                .about-area .txt-side{
+                        margin: 10px 0px;
+                }
+                .txt-side h2{
+                        font-size: 20px;
+                }
+                .services-area{
+                        padding: 25px 0px;
+                }
+                .facts{
+                        padding: 10px 0px;
+                }
+                .figure img{
+                        height: 230px;
+                }
+                .feedback-area{
+                        padding: 100px 0px;
+                }
+                .feedback img{
+                        height: 25px;
+                        margin-bottom: 150px;
+                }
+                .feedback p{
+                        font-size: 12px;
+                }
+                .price{
+                        margin: 0 auto;
+                        width: 250px;
+                        height: auto;
+                }
+                .price-head {
+                        font-weight: bold;
+                        margin-bottom: 25px;
+                }
+                .price-head h1{
+                        font-size: 20px;
+                        padding: 8px 0px 0px 0px;
+                }
+                .price-foot p{
+                        font-size: 12px;
+                }
+                .box{
+                        height: 50px;
+                        width: 50px;
+                        border: 10px solid #A0BBFE;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 0px 0px 05px 40%;
+                }
+        
+}

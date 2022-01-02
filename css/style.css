@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-area{
+    background-color: #fff;
+    padding: 20px 0px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+}
+.menu{
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 0px 5px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+.checkbtn{
+    display: none;
+}
+#check{
+    display: none;
+}
+.menu ul li a:hover{
+    color: #8490FF;
+    transition: 0.4s;
+}
+#active{
+    color: #8490FF;
+}
+.banner-area{
+    background-color: #F9F9FF;
+    padding: 150px 0px 0px 0px;
+}
+.img-side{
+    float: left;
+}
+.txt-side{
+    text-transform: uppercase;
+    margin: 100px 0px;
+}
+.txt-side h6{
+    font-size: 14px;
+    letter-spacing: 3px;
+    padding: 10px 0px;
+}
+.txt-side h1{
+    font-weight: bolder;
+    font-size: 52px;
+    padding: 10px 0px 20px 0px;
+}
+.txt-side h2{
+    font-weight: bolder;
+    padding: 10px 0px 20px 0px;
+}
+.txt-side p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    text-transform: capitalize;
+}
+button{
+    color: #fff;
+    background: linear-gradient(to right, #8391FF 0%, #66B8FC 100%);
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 30px;
+    margin: 20px 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+button:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.4s;
+}
+.about-area{
+    background-color: #fff;
+}
+.head {
+    text-align: center;
+    text-transform: capitalize;
+}
+.head h2{
+    font-weight: bolder;
+}
+.head p{
+    color: rgba(0, 0, 0, 0.5);
+}
+.services-area{
+    margin: 0px 0px 150px 0px;
+}
+.services{
+    text-align: center;
+    margin: 50px 0px 25px 0px;
+}
+.services i{
+    font-size: 30px;
+}
+.services h6{
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin: 25px 0px 30px 0px;
+    letter-spacing: 1px;
+}
+.services p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    padding: 0px 10px;
+}    
+.hover-area:hover{
+    color: #66B7FC;
+    transition: 0.4s;
+}
+.facts-area{
+    background: linear-gradient(to right, #8391FF 0%, #66B8FC 100%);
+    text-align: center;
+    color: #fff;
+    padding: 100px 0px;
+    text-transform: capitalize;
+}
+.facts-area h1{
+    font-weight: bolder;
+}
+.portfolio-area{
+    background-color: #fff;
+    padding: 150px 0px;
+}
+.portfolio-area .menu{
+    margin: 80px 0px 50px;
+}
+.portfolio-segment{
+    text-align: center;
+}
+.portfolio-segment h5{
+    font-weight: bold;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+.figure{
+    background: linear-gradient(to right, #a10cf7 0%, #66B8FC 100%);
+    border-radius: 8px;
+}
+.portfolio-segment:hover img{
+    opacity: 0.3;
+    transition: all 0.5s ease-in-out;
+}
+.portfolio-menu ul li{
+    display: inline-block;
+}
+.feedback-area{
+    padding: 150px 0px;
+    background-color: #F9F9FF;
+}
+.feedback{
+    background-color: #fff;
+    padding: 20px 30px;
+    margin-top: 50px;
+}
+.feedback img{
+    float: left;
+    border-radius: 50%;
+    margin: 0px 20px 100px 20px;
+}
+.feedback h5{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.feedback h5:hover{
+    color: #8490FF;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.price-area{
+    padding: 150px 0px;
+    background-color: #fff;
+}
+.price-area .head{
+    margin:  0px 0px 100px 0px;
+}
+.price{
+    background-color: #F9F9FF;  
+    text-align: center;  
+    text-transform: capitalize;
+    padding: 50px 0px;
+    border-radius: 5px;
+}
+.price-head {
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.price-foot p{
+    border-top: 1px  solid rgba(0,0,0,0.2);
+    border-bottom: 1px  solid rgba(0,0,0,0.2);
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 10px solid #A0BBFE;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 20px 78px;
+}
+.price:hover{
+    background: linear-gradient(to right, #8391FF 0%, #66B8FC 100%);
+    color: #fff;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    border-radius: 5px;
+}
+.footer-area{
+    background-color: #04091E;
+    padding: 100px 0px;
+}
+.footer-area h5{
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.footer-area p{
+    color: #6E6E70;
+    font-size: 16px;
+}
+.footer-area a{
+    text-decoration: none;
+}
+.footer-area i{
+    padding: 5px;
+    color: #fff;
+}
+.footer-area i:hover{
+    color: #8490FF;
+    transition: all 0.5s ease-in-out;
+}
+.footer-area input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 30% 10px 10px;
+}
